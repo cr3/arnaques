@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           mkdir -p _site/node_modules/reveal.js
-          cp index.html _site/
+          cp index.html qr.svg _site/
           cp -r node_modules/reveal.js/dist _site/node_modules/reveal.js/dist
           touch _site/.nojekyll
 
